@@ -1,0 +1,18 @@
+name: hancak_app
+description: A simple app to manage hancak distribution
+version: 1.0.0
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  # Jika ada dependency lain, misal untuk testing atau logging, bisa ditambahkan di sini
+  # contoh:
+  # logging: ^1.0.0
+
+dev_dependencies:
+  # Misalnya untuk test unit
+  # test: ^1.0.0
+
+executables:
+  hancak_app: lib/main.dart
